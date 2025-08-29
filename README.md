@@ -59,8 +59,11 @@ Neste projeto, serão utilizados dados abertos fornecidos pela Organização Mun
 Este projeto busca aplicar técnicas de ciência de dados em um conjunto real, desenvolver competências de trabalho em equipe, gestão de projeto e comunicação científica.  
 
 O uso de dados abertos da OMS garante confiabilidade e relevância social, além de permitir diferentes caminhos analíticos nas próximas etapas.  
----
-[Veja a versão HTML aqui](projetoaplicadoII.html)
+
 ---
 
 *2025 – Projeto Aplicado I*
+
+---
+
+[Veja a versão HTML aqui](projetoaplicadoI.html)
