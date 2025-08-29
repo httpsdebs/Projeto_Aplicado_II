@@ -30,10 +30,10 @@ Neste projeto, serão utilizados dados abertos fornecidos pela Organização Mun
 - **Período:** Séries históricas de 2000 a 2023 (variável por indicador)  
 
 **Metadados**  
-- **Indicador:** Nome e definição (ex.: mortalidade infantil, expectativa de vida)  
-- **País/Região:** Localidade geográfica  
-- **Ano:** Série temporal de 2000 a 2023  
-- **Valor:** Métrica do indicador  
+- **Indicador:**   
+- **País/Região:**   
+- **Ano:** 
+- **Valor:**  
 - **Fonte primária:** Instituições de saúde nacionais e levantamentos globais  
 
 ---
