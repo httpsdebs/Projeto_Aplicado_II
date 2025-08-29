@@ -22,8 +22,8 @@ Neste projeto, serão utilizados dados abertos fornecidos pela Organização Mun
 **Referências de Aquisição**  
 - **Fonte:** WHO (World Health Organization) – Open Data Repository  
 - **Link:** [https://www.who.int/data/gho/](https://www.who.int/data/gho/)  
-- **Limitações:** Dados públicos e gratuitos para uso acadêmico  
-- **Período:** Séries históricas de 2000 a 2023 (variável por indicador)  
+- **Limitações:**   
+- **Período:**  
 
 **Metadados**  
 - **Indicador:**   
