@@ -10,7 +10,7 @@
 
 ## Membros do Grupo  
 - Déborah Silvério Alves Morales  
-- [Espaço para demais integrantes]  
+- ...  
 
 ---
 
@@ -43,8 +43,8 @@ Neste projeto, serão utilizados dados abertos fornecidos pela Organização Mun
 | Etapa | Atividade                                  | Responsável        | Prazo     |
 |-------|---------------------------------------------|-------------------|-----------|
 | 1     | Definição do tema e dataset                 | Todos os membros  | Semana 2  |
-| 2     | Análise exploratória dos dados (scripts Python) | [Nome integrante] | Semana 4  |
-| 3     | Estruturação dos resultados e storytelling  | [Nome integrante] | Semana 6  |
+| 2     | Análise exploratória dos dados (scripts Python) | . | Semana 4  |
+| 3     | Estruturação dos resultados e storytelling  | . | Semana 6  |
 | 4     | Preparação do relatório e vídeo final       | Todos os membros  | Semana 8  |
 
 ---
