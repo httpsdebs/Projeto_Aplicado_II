@@ -66,4 +66,4 @@ O uso de dados abertos da OMS garante confiabilidade e relevância social, além
 
 ---
 
-[Veja a versão HTML aqui](projetoaplicadoI.html)
+[Veja a versão HTML aqui](https://httpsdebs.github.io/Projeto_Aplicado_I/projetoaplicadoI.html)
