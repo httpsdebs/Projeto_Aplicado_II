@@ -1,40 +1,32 @@
 
-## Título do Trabalho  
-**Análise de Tendências de Saúde Pública a partir de Dados Abertos da Organização Mundial da Saúde (WHO)**
-
----
+# Análise de Tendências de Saúde Pública a partir de Dados Abertos da Organização Mundial da Saúde (WHO)
 
 ## Membros do Grupo  
 - Déborah Silvério Alves Morales  
 - Luiz Benlardi  
 
----
-
 ## Contexto do Estudo  
-A saúde pública é um tema de extrema relevância social e acadêmica, especialmente no cenário pós-pandemia, onde governos e instituições internacionais dependem cada vez mais da análise de dados para a tomada de decisões.  
+A saúde pública é um tema de extrema relevância social e acadêmica, especialmente no cenário pós-pandemia, onde governos e instituições internacionais dependem cada vez mais da análise de dados para a tomada de decisões.
 
-Neste projeto, serão utilizados dados abertos fornecidos pela Organização Mundial da Saúde (WHO), com foco em indicadores de saúde global como expectativa de vida, cobertura vacinal, mortalidade e fatores de risco populacionais.  
-
----
+Neste projeto, utilizaremos dados abertos fornecidos pela Organização Mundial da Saúde (WHO), com foco em indicadores de saúde global como expectativa de vida, cobertura vacinal, mortalidade e fatores de risco populacionais.
 
 ## Dataset  
 
-**Referências de Aquisição**  
-- **Fonte:** WHO (World Health Organization) – Open Data Repository  
-- **Link:** [https://www.who.int/data/gho/](https://www.who.int/data/gho/)  
-- **Limitações:**   
-- **Período:**  
+**Referências de Aquisição:**  
+- Fonte: WHO (World Health Organization) – Open Data Repository  
+- Link: [https://www.who.int/data/gho/](https://www.who.int/data/gho/)  
+- Limitações: Dados sujeitos a atualizações periódicas e possíveis lacunas em alguns países.  
+- Período: Dados coletados entre 2000 e 2023.  
 
-**Metadados**  
-- **Indicador:**   
-- **País/Região:**   
-- **Ano:** 
-- **Valor:**  
-- **Fonte primária:** Instituições de saúde nacionais e levantamentos globais  
-
----
+**Metadados principais:**  
+- Indicador  
+- País/Região  
+- Ano  
+- Valor  
+- Fonte primária: Instituições de saúde nacionais e levantamentos globais  
 
 ## Cronograma Proposto  
+
 
 | Etapa | Atividade                                  | Responsável        | Prazo     |
 |-------|---------------------------------------------|-------------------|-----------|
