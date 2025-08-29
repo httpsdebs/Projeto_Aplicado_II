@@ -1,4 +1,3 @@
-# Projeto Aplicado I  
 ---
 
 ## Título do Trabalho  
