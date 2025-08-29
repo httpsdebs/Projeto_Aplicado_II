@@ -19,10 +19,10 @@ Neste projeto, utilizaremos dados abertos fornecidos pela Organização Mundial 
 - Período: Dados coletados entre 2000 e 2023.  
 
 **Metadados principais:**  
-- Indicador  
-- País/Região  
-- Ano  
-- Valor  
+- Indicador: 
+- País/Região:  
+- Ano:
+- Valor:  
 - Fonte primária: Instituições de saúde nacionais e levantamentos globais  
 
 ## Cronograma Proposto  
