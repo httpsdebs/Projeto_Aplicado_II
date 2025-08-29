@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Aplicado I - Ciência de Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #6f4284;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #e2e2e2;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #9331cb;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        h1, h2, h3 {
+            color: #b15dd8;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+        .highlight {
+            background-color: #fce6ff;
+            padding: 10px;
+            border-left: 5px solid #814591;
+            margin-top: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projeto Aplicado I</h1>
+        <p>Déborah Silvério Alves Morales</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#titulo">Título</a></li>
+            <li><a href="#membros">Membros</a></li>
+            <li><a href="#contexto">Contexto</a></li>
+            <li><a href="#dataset">Dataset</a></li>
+            <li><a href="#cronograma">Cronograma</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#consideracoes">Considerações</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="titulo">
+            <h2>Título do Trabalho</h2>
+            <p><strong>Análise de Tendências de Saúde Pública a partir de Dados Abertos da Organização Mundial da Saúde (WHO)</strong></p>
+        </section>
+
+        <section id="membros">
+            <h2>Membros do Grupo</h2>
+            <ul>
+                <li>Déborah Silvério Alves Morales</li>
+                <li>.</li>
+            </ul>
+        </section>
+
+        <section id="contexto">
+            <h2>Contexto do Estudo</h2>
+            <p>A saúde pública é um tema de extrema relevância social e acadêmica, especialmente no cenário pós-pandemia, onde governos e instituições internacionais dependem cada vez mais da análise de dados para a tomada de decisões.</p>
+            <p>Neste projeto, serão utilizados dados abertos fornecidos pela Organização Mundial da Saúde (WHO), com foco em indicadores de saúde global como expectativa de vida, cobertura vacinal, mortalidade e fatores de risco populacionais.</p>
+        </section>
+
+        <section id="dataset">
+            <h2>Dataset</h2>
+            <h3>Referências de Aquisição</h3>
+            <ul>
+                <li><strong>Fonte:</strong> WHO (World Health Organization) – Open Data Repository</li>
+                <li><strong>Link:</strong> <a href="https://www.who.int/data/gho/" target="_blank">https://www.who.int/data/gho/</a></li>
+                <li><strong>Limitações:</strong> Dados públicos e gratuitos para uso acadêmico</li>
+                <li><strong>Período:</strong> Séries históricas de 2000 a 2023 (variável por indicador)</li>
+            </ul>
+
+            <h3>Metadados</h3>
+            <ul>
+                <li>Indicador: Nome e definição (ex.: mortalidade infantil, expectativa de vida)</li>
+                <li>País/Região: Localidade geográfica</li>
+                <li>Ano: Série temporal de 2000 a 2023</li>
+                <li>Valor: Métrica do indicador</li>
+                <li>Fonte primária: Instituições de saúde nacionais e levantamentos globais</li>
+            </ul>
+        </section>
+
+        <section id="cronograma">
+            <h2>Cronograma Proposto</h2>
+            <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width:100%;">
+                <tr style="background:#fce6ff;">
+                    <th>Etapa</th>
+                    <th>Atividade</th>
+                    <th>Responsável</th>
+                    <th>Prazo</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Definição do tema e dataset</td>
+                    <td>Todos os membros</td>
+                    <td>Semana 2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Análise exploratória dos dados (scripts Python)</td>
+                    <td>.</td>
+                    <td>Semana 4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Estruturação dos resultados e storytelling</td>
+                    <td>.</td>
+                    <td>Semana 6</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Preparação do relatório e vídeo final</td>
+                    <td>Todos os membros</td>
+                    <td>Semana 8</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="github">
+            <h2>Organização no GitHub</h2>
+            <ul>
+                <li><strong>Repositório - <a href="https://github.com/httpsdebs/Projeto_Aplicado_I.git" target="_blank">https://github.com/httpsdebs/Projeto_Aplicado_I.git</a></strong></li>
+                <li><strong>README.md</strong> – objetivo, integrantes e descrição do projeto</li>
+                <li><strong>/data</strong> – dataset</li>
+                <li><strong>/scripts</strong> – códigos Python de análise</li>
+                <li><strong>/docs</strong> – relatórios e apresentações</li>
+            </ul>
+        </section>
+
+        <section id="consideracoes">
+            <h2>Considerações Finais</h2>
+            <p>Este projeto busca aplicar técnicas de ciência de dados em um conjunto real, desenvolver competências de trabalho em equipe, gestão de projeto e comunicação científica. O uso de dados abertos da OMS garante confiabilidade e relevância social, além de permitir diferentes caminhos analíticos nas próximas etapas.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Projeto Aplicado I</p>
+    </footer>
+</body>
+</html>
