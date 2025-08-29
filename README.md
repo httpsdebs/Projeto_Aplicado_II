@@ -10,7 +10,7 @@
 
 ## Membros do Grupo  
 - Déborah Silvério Alves Morales  
-- ...  
+- Luiz Benlardi  
 
 ---
 
