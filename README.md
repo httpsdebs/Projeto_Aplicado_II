@@ -1,61 +1,98 @@
+# Projeto Aplicado I - Detecção de Fraudes em Transações de Cartão de Crédito  
 
-# Análise de Tendências de Saúde Pública a partir de Dados Abertos da Organização Mundial da Saúde (WHO)
+## 1. Introdução e Justificativa  
 
-## Membros do Grupo  
-- Déborah Silvério Alves Morales  
-- Luiz Benlardi  
+**Contexto:**  
+O crescimento das transações financeiras digitais trouxe também um aumento nos casos de fraude. Detectar esses eventos é um desafio devido ao alto volume de dados e à complexidade dos padrões de fraude.  
 
-## Contexto do Estudo  
-A saúde pública é um tema de extrema relevância social e acadêmica, especialmente no cenário pós-pandemia, onde governos e instituições internacionais dependem cada vez mais da análise de dados para a tomada de decisões.
+**Relevância:**  
+A detecção de fraudes é fundamental para reduzir perdas financeiras, proteger consumidores e manter a confiança no sistema financeiro. Métodos manuais não são escaláveis, reforçando a necessidade de soluções baseadas em ciência de dados.  
 
-Neste projeto, utilizaremos dados abertos fornecidos pela Organização Mundial da Saúde (WHO), com foco em indicadores de saúde global como expectativa de vida, cobertura vacinal, mortalidade e fatores de risco populacionais.
+**Objetivo do Projeto:**  
+Desenvolver um modelo de análise capaz de identificar transações fraudulentas com alta precisão, reduzindo tanto falsos positivos quanto falsos negativos.  
 
-## Dataset  
-
-**Referências de Aquisição:**  
-- Fonte: WHO (World Health Organization) – Open Data Repository  
-- Link: [https://www.who.int/data/gho/](https://www.who.int/data/gho/)  
-- Limitações: Dados sujeitos a atualizações periódicas e possíveis lacunas em alguns países.  
-- Período: Dados coletados entre 2000 e 2023.  
-
-**Metadados principais:**  
-- Indicador: 
-- País/Região:  
-- Ano:
-- Valor:  
-- Fonte primária: Instituições de saúde nacionais e levantamentos globais  
-
-## Cronograma Proposto  
-
-
-| Etapa | Atividade                                  | Responsável        | Prazo     |
-|-------|---------------------------------------------|-------------------|-----------|
-| 1     | Definição do tema e dataset                 | Todos os membros  | Semana 2  |
-| 2     | Análise exploratória dos dados (scripts Python) | . | Semana 4  |
-| 3     | Estruturação dos resultados e storytelling  | . | Semana 6  |
-| 4     | Preparação do relatório e vídeo final       | Todos os membros  | Semana 8  |
+**Contribuição da Ciência de Dados:**  
+A aplicação de técnicas de ciência de dados permite criar modelos preditivos escaláveis e mais eficientes para a detecção de fraudes em tempo real.  
 
 ---
 
-## Organização no GitHub  
+## 2. Definição do Problema  
 
-- **README.md** – objetivo, integrantes e descrição do projeto  
-- **/data** – dataset  
-- **/scripts** – códigos Python de análise  
-- **/docs** – relatórios e apresentações  
+- **Problema Central:**  
+  Como identificar padrões em grandes volumes de dados de transações financeiras que diferenciem operações legítimas de fraudulentas.  
 
----
-
-## Considerações Finais  
-
-Este projeto busca aplicar técnicas de ciência de dados em um conjunto real, desenvolver competências de trabalho em equipe, gestão de projeto e comunicação científica.  
-
-O uso de dados abertos da OMS garante confiabilidade e relevância social, além de permitir diferentes caminhos analíticos nas próximas etapas.  
+- **Desafios Esperados:**  
+  - Desbalanceamento de classes (fraudes são raras).  
+  - Anonimização dos dados (variáveis PCA V1–V28).  
+  - Natureza dinâmica da fraude (padrões em constante mudança).  
+  - Volume elevado de dados.  
 
 ---
 
-*2025 – Projeto Aplicado I*
+## 3. Descrição do Dataset  
+
+- **Nome:** Credit Card Fraud Detection (Kaggle)  
+- **Origem:** Université Libre de Bruxelles (ULB), Europa.  
+- **Período:** Setembro de 2013.  
+- **Tamanho:** ~285.000 transações, 31 variáveis.  
+
+**Variáveis Principais:**  
+- `Time`: Segundos desde a primeira transação.  
+- `V1` a `V28`: Variáveis numéricas (componentes PCA).  
+- `Amount`: Valor da transação.  
+- `Class`: Variável alvo (0 = legítima, 1 = fraude).  
+
+**Características Relevantes:**  
+- Dados anonimizados.  
+- Forte desbalanceamento (poucas fraudes em relação ao total).  
 
 ---
 
-[Veja a versão HTML aqui](https://httpsdebs.github.io/Projeto_Aplicado_I/projetoaplicadoI.html)
+## 4. Metodologia Proposta  
+
+### Fase 1 – Coleta e Entendimento dos Dados  
+- Download do dataset e inspeção inicial.  
+
+### Fase 2 – Análise Exploratória de Dados (AED)  
+- Verificação de valores ausentes.  
+- Distribuições das variáveis (histogramas, boxplots).  
+- Análise do desbalanceamento da variável `Class`.  
+
+### Fase 3 – Pré-processamento  
+- Tratamento de dados ausentes (se houver).  
+- Normalização (Amount e Time).  
+- Técnicas para lidar com desbalanceamento (SMOTE, undersampling, oversampling).  
+
+### Fase 4 – Modelagem  
+- Algoritmos: Regressão Logística, Árvores de Decisão, Random Forest, Gradient Boosting, SVM, Redes Neurais.  
+- Divisão em treino e teste.  
+- Validação dos modelos.  
+
+### Fase 5 – Avaliação e Otimização  
+- Métricas: Precisão, Recall, F1-Score, AUC-ROC.  
+- Ajuste de hiperparâmetros.  
+
+### Fase 6 – Conclusões  
+- Discussão dos resultados.  
+- Limitações do estudo.  
+- Sugestões para trabalhos futuros.  
+
+---
+
+## 5. Cronograma  
+
+- **Semana 1-2:** Definição do escopo e planejamento.  
+- **Semana 3-4:** Coleta e AED.  
+- **Semana 5-6:** Pré-processamento e engenharia de features.  
+- **Semana 7-8:** Modelagem e treinamento.  
+- **Semana 9-10:** Avaliação e refinamento.  
+- **Semana 11-12:** Documentação e apresentação final.  
+
+---
+
+## Integrantes do Grupo  
+
+- Déborah Silvério Alves Morales - RA: 10728563  
+- Diógenes  
+- Lucas Iglezias dos Anjos - RA: 10433522  
+- Luiz Benlardi Neto - RA: 10724617  
