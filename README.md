@@ -18,15 +18,7 @@ Desenvolver um modelo de análise de sentimentos capaz de classificar automatica
 ## 2. Contexto de Estudo  
 
 As redes sociais se tornaram espaços centrais de expressão de opiniões sobre produtos, marcas, política e eventos sociais.  
-A análise de sentimentos é uma técnica de PLN que busca identificar automaticamente a polaridade de textos, geralmente em três categorias: positivo, negativo ou neutro.  
-
-Esse tipo de análise enfrenta desafios como:  
-- textos curtos,  
-- uso de gírias,  
-- ironias,  
-- linguagem informal.  
-
-Ainda assim, tem grande aplicação em **marketing, política e atendimento ao cliente**.  
+A análise de sentimentos é uma técnica de PLN que busca identificar automaticamente a polaridade de textos, geralmente em três categorias: positivo, negativo ou neutro.   
 
 O dataset escolhido é o **Twitter US Airline Sentiment**, com 15.000 tweets postados em fevereiro de 2015, classificados como negativos (0), neutros (2) ou positivos (4).  
 
