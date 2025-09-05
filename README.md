@@ -6,9 +6,10 @@
 Análise de Sentimentos em Redes Sociais  
 
 **Membros do Grupo:**  
-- Allana Silva Santana  
+- Allana Silva Santana - RA: 10424950
 - Cristiano Prado do Carmo – RA: 10720249  
 - Déborah Silvério Alves Morales – RA: 10728563  
+- Maria Fernanda Salles Vasconcellos – RA: 10424791
 
 **Objetivo do Projeto:**  
 Desenvolver um modelo de análise de sentimentos capaz de classificar automaticamente tweets em categorias positivas, negativas ou neutras, demonstrando a aplicação de técnicas de Processamento de Linguagem Natural (PLN) e aprendizado de máquina.  
@@ -57,17 +58,17 @@ O cronograma abaixo apresenta as atividades previstas, com responsáveis e prazo
 | **2 - Definições do Produto Analítico** | Seleção de bibliotecas Python | 08/09/2025 | 10/09/2025 | Todos |
 | | Definição do repositório no GitHub | 11/09/2025 | 12/09/2025 | Todos |
 | | Análise exploratória dos dados | 12/09/2025 | 15/09/2025 | Todos |
-| | Tratamento da base para preparação e treinamento | 16/09/2025 | 23/09/2025 | Cristiano Prado |
-| | Descrição da base teórica e dos métodos analíticos | 19/09/2025 | 25/09/2025 | Déborah Morales |
-| | Definição do cálculo da acurácia | 26/09/2025 | 02/10/2025 | Allana Silva |
-| **3 - Apresentação de Produtos e Storytelling** | Consolidação dos resultados | 05/10/2025 | 08/10/2025 | Allana Silva |
-| | Aplicação das medidas de acurácia | 05/10/2025 | 08/10/2025 | Cristiano Prado |
-| | Descrição dos resultados preliminares | 09/10/2025 | 16/10/2025 | Cristiano Prado |
-| | Esboço do Storytelling | 17/10/2025 | 23/10/2025 | Déborah Morales |
-| **4 - Apresentação de Resultados (Entrega final)** | Entrega do relatório técnico | 26/10/2025 | 21/11/2025 | Déborah Morales |
+| | Tratamento da base para preparação e treinamento | 16/09/2025 | 23/09/2025 | Cristiano Prado/Deborah Morales |
+| | Descrição da base teórica e dos métodos analíticos | 19/09/2025 | 25/09/2025 | Debora Morales/Allana Silva |
+| | Definição do cálculo da acurácia | 26/09/2025 | 02/10/2025 | Allana Silva/Maria Fernanda |
+| **3 - Apresentação de Produtos e Storytelling** | Consolidação dos resultados | 05/10/2025 | 08/10/2025 | Cristiano Prado/ Allana Silva |
+| | Aplicação das medidas de acurácia | 05/10/2025 | 08/10/2025 | Cristiano Prado/ Allana Silva |
+| | Descrição dos resultados preliminares | 09/10/2025 | 16/10/2025 | Maria Fernanda |
+| | Esboço do Storytelling | 17/10/2025 | 23/10/2025 | Deborah Morales/ Maria Fernanda |
+| **4 - Apresentação de Resultados (Entrega final)** | Entrega do relatório técnico | 26/10/2025 | 21/11/2025 | Deborah Morales/Cristiano Prado |
 | | Reunião de gravação do vídeo | 16/11/2025 | 18/11/2025 | Todos |
 | | Apresentação do Storytelling | 26/10/2025 | 21/11/2025 | Todos |
-| | Atualização final do repositório no GitHub | 18/11/2025 | 19/11/2025 | Cristiano Prado |
+| | Atualização final do repositório no GitHub | 18/11/2025 | 19/11/2025 | Cristiano Prado/Maria Fernanda |
 | | Entrega do vídeo no YouTube | 26/10/2025 | 21/11/2025 | Todos |
 
 ---
